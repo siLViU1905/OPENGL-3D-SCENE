@@ -23,7 +23,7 @@ int main()
 {
     if (!glfwInit())
         return -1;
-    GLFWwindow* window = glfwCreateWindow(1080, 720, "Cyli", nullptr, nullptr);
+    GLFWwindow* window = glfwCreateWindow(1080, 720, "3DScene", nullptr, nullptr);
     if (!window)
         return -1;
     glfwMakeContextCurrent(window);
